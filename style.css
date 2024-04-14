@@ -11,10 +11,10 @@
     font-family: 'Poppins', sans-serif;
 }
 :root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --text-color: aliceblue;
-    --main-color: #0ef;
+    --bg-color: white;
+    --second-bg-color:rgb(244, 235, 235);
+    --text-color: blue;
+    --main-color: rgb(110, 84, 236);
 }
 html{
     font-size: 62.5%;
@@ -93,7 +93,7 @@ span{
     animation: floatImage 4s ease-in-out infinite;
     border-radius: 50%;
     /* border-image: 0.25rem solid linear-gradient(315deg,#00ccff,#d400d4); */
-    border: 4rem inset rgba(0, 0, 0, 0.5);
+    
 }
 @keyframes floatImage{
     0%{
